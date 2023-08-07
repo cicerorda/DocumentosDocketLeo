@@ -2,7 +2,7 @@
   "name": "DocumentosDocket",
   "projectId": "84b42f70-5f9b-41bc-a35e-6ecdae754d70",
   "description": "Blank Process",
-  "main": "Main.xaml",
+  "main": "GetDocs.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.21.0-preview]",
     "UiPath.Mail.Activities": "[1.20.2]",
@@ -49,8 +49,8 @@
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
     {
-      "filePath": "Main.xaml",
-      "uniqueId": "8a6090eb-6f78-4aa1-a736-a1a47a71abdc",
+      "filePath": "GetDocs.xaml",
+      "uniqueId": "44586b1f-dda4-4dc0-aec2-1a6d014847ef",
       "input": [],
       "output": []
     }

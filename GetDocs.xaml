@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="GetDocs" sap:VirtualizedContainerService.HintSize="390,45" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:si="clr-namespace:System.IO;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="GetDocs" sap:VirtualizedContainerService.HintSize="848,2966.4" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:si="clr-namespace:System.IO;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -80,13 +80,13 @@
       <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:WorkflowViewState.IdRef="Sequence_15">
+  <Sequence sap:VirtualizedContainerService.HintSize="797.6,2901.6" sap2010:WorkflowViewState.IdRef="Sequence_15">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="737.6,6308" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="735.2,2789.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
       <Sequence.Variables>
         <Variable x:TypeArguments="sd:DataTable" Default="[New System.Data.DataTable]" Name="ExtractDataTable" />
       </Sequence.Variables>
@@ -95,20 +95,20 @@
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="675.2,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Info" Message="[&quot;Acessando Newcon&quot;]" />
-      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Edge: Newcon Software Workflow" sap:VirtualizedContainerService.HintSize="675.2,1822.4" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" ScopeGuid="63f60bf5-483b-4ba7-b8d6-12ffd793db33" Version="V2">
+      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="672.8,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Info" Message="[&quot;Acessando Newcon&quot;]" />
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Edge: Newcon Software Workflow" sap:VirtualizedContainerService.HintSize="672.8,2198.4" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" ScopeGuid="63f60bf5-483b-4ba7-b8d6-12ffd793db33" Version="V2">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="512,1605.6" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="639.2,1981.6" sap2010:WorkflowViewState.IdRef="Sequence_3">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="449.6,388.8" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+              <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="576.8,764.8" sap2010:WorkflowViewState.IdRef="TryCatch_1">
                 <TryCatch.Try>
                   <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Filas'" sap:VirtualizedContainerService.HintSize="333.6,157.6" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="63f60bf5-483b-4ba7-b8d6-12ffd793db33" Timeout="10" Version="V3">
                     <uix:NClick.Target>
@@ -123,10 +123,10 @@
                   </uix:NClick>
                 </TryCatch.Try>
                 <TryCatch.Catches>
-                  <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="403.2,22.4" sap2010:WorkflowViewState.IdRef="Catch`1_1">
+                  <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="543.2,600" sap2010:WorkflowViewState.IdRef="Catch`1_1">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                         <x:Boolean x:Key="IsPinned">False</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
@@ -134,14 +134,14 @@
                       <ActivityAction.Argument>
                         <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
                       </ActivityAction.Argument>
-                      <Sequence sap:VirtualizedContainerService.HintSize="545.6,529.6" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                      <Sequence sap:VirtualizedContainerService.HintSize="536.8,529.6" sap2010:WorkflowViewState.IdRef="Sequence_5">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="483.2,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Error" Message="[&quot;Efetuando Login&quot;]" />
-                        <uix:NApplicationCard sap2010:Annotation.AnnotationText="Efetuar login" AttachMode="ByInstance" DisplayName="Use Browser Edge: cookieprovider.sicredi.com.br/siteminderagent/forms/login.fcc?TYPE=33554433&amp;REALMO" sap:VirtualizedContainerService.HintSize="483.2,84" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" ScopeGuid="24dc1937-303d-4e6f-9114-014442e1f0a6" Version="V2">
+                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="474.4,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Error" Message="[&quot;Efetuando Login&quot;]" />
+                        <uix:NApplicationCard sap2010:Annotation.AnnotationText="Efetuar login" AttachMode="ByInstance" DisplayName="Use Browser Edge: cookieprovider.sicredi.com.br/siteminderagent/forms/login.fcc?TYPE=33554433&amp;REALMO" sap:VirtualizedContainerService.HintSize="474.4,84" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" ScopeGuid="24dc1937-303d-4e6f-9114-014442e1f0a6" Version="V2">
                           <uix:NApplicationCard.Body>
                             <ActivityAction x:TypeArguments="x:Object">
                               <ActivityAction.Argument>
@@ -178,7 +178,7 @@
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
                         </uix:NApplicationCard>
-                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Filas'" sap:VirtualizedContainerService.HintSize="483.2,157.6" sap2010:WorkflowViewState.IdRef="NClick_5" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="63f60bf5-483b-4ba7-b8d6-12ffd793db33" Version="V3">
+                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Filas'" sap:VirtualizedContainerService.HintSize="474.4,157.6" sap2010:WorkflowViewState.IdRef="NClick_5" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="63f60bf5-483b-4ba7-b8d6-12ffd793db33" Version="V3">
                           <uix:NClick.Target>
                             <uix:TargetAnchorable BrowserURL="https://consorcio-newflow.sicredi.com.br/Workflow" CvTextArgument="Filas" CvType="Text" DesignTimeRectangle="254, 97, 92, 63" DesignTimeScaleFactor="1.25" ElementType="Text" FriendlyName="'Filas'" FullSelectorArgument="&lt;webctrl aaname='  Filas' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='  Filas' tag='A' type='' class='' check:innerText='Filas' /&gt;" Guid="adbaae73-980d-4a48-b154-c0e6487ccfbb" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAGAAAABDCAYAAABjoACgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAANkSURBVHhe7ZpBSxtREMfzVfIRPLbHHHPooQcPHi2WgocK4kmhKPG29KI3JRcRpKJS6CIIQb2sUDSwEJJTJLCgESQrJCYEhH/n7WbNZrOp1rx0gs6DH+S9zI5hf/tmXoKJ+/t7CHwkms0mBD4Sx8fHEPhIJD5n4PH+g8CBCGBGBDAjApgRAcyIAGZEADMigBkRwIwIYEYEMCMCmBEBzIgAZkQAMyKAGRHAjAhgRgQwIwKYEQHMiABmRiFgYsHA1MqQLMzF5n516BdwhCJ0DAebsflfGWMhoF6CEX76c1VafKGA6WWkp7vz1LqJ7f0sUuGYcWIsBDw0cFl2UAy4adNivwDvZh6exmBi/quK2YLVpEvbZRida+YvGiTYxnwoz1ihX0AWe1cNtJrtoXCvrL6b5t1MGv3xVZjfVcwSjEIDbslEOnzN2xIwOnwB/1aa3qCAA+RVBRl2hMpIwHMELJ5QCTvZepzHCpheQ+akhCLtVPfGgUXxwY7xmcHUzjnylRrcuyryF0eYDfUVregXMLgHuIWD3qPmIAY04ecI2KxQSOXocd4n4At9vgeKoRtrnZ3CLNXQomnL7kpL/XRorY1r26L+QiJuqcyVTbwLcujkfwpoVc4jzXMAhRpFDxJQgxWJz6x2Y54UoJ7uVQPJ0Nwo0ZZ96O44L4dz2hOTnAxea0a/gANY9WiTfAHqaBrJ7Qvob8L5/W7M0wJCTC7h48oW1iPCF21VQxuwdtcwEY4fBfoFjA5fwJAliEhvWCje+Y2qRaWo79g7aWDd9kuTOiIXz6h0yg7QIyCZLfn1/ewHUsFN/eXE5/WatQNX9Yzbc3yKvq8D/QKe/0XsutBbyx/5aw8YTkCmQE97tCQNEtAheagOBTWYK/HvDwWngMtczAlIMcJT0OxvlaOKvW8zNFfHTRvXXjUK8maRu6oitxM06jnqCXRNqElrRb8A3u8BUQHJnTK8Wh6cahZM5OtqoTPqDrb3bbhBXqr/xkUVLVV2gkF9IL+73PN3tKFfwPjh/Tze8/P2DFJL0bUoc0h7O3J5tCehtyBgrBEBzIgAZkQAMyKAGRHAjAhgRgQwIwKYEQHMiABmRAAzIoAZEcCMCGBGBDAjApgRAcyIAGZEADMigBkRwIwIYEYEMCMCmOn8850MlgH8AUFWRMxoat5kAAAAAElFTkSuQmCC" InformativeScreenshot="97825cb9a764c99a66cfddd98c6e4126.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Newcon Software Workflow' /&gt;" SearchSteps="FuzzySelector, Image, CV" Version="V2" Visibility="Interactive">
                               <uix:TargetAnchorable.Anchors>
@@ -194,7 +194,7 @@
                   </Catch>
                 </TryCatch.Catches>
               </TryCatch>
-              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Filas'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="449.6,218.4" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="63f60bf5-483b-4ba7-b8d6-12ffd793db33" Text="COMPLEMENTAR CADASTRO E INCLUIR CERTIDÕES (2ª CONFERÊNCIA)" Version="V3">
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Filas'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="576.8,218.4" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="63f60bf5-483b-4ba7-b8d6-12ffd793db33" Text="COMPLEMENTAR CADASTRO E INCLUIR CERTIDÕES (2ª CONFERÊNCIA)" Version="V3">
                 <uix:NTypeInto.Target>
                   <uix:TargetAnchorable BrowserURL="https://consorcio-newflow.sicredi.com.br/fila" CvElementArea="1303, 262, 583, 32" CvTextArea="1315, 275, 36, 10" CvTextArgument="Buscar" CvType="InputBox" DesignTimeRectangle="1287, 331, 555, 38" DesignTimeScaleFactor="1.25" ElementType="InputBox" FriendlyName="'INPUT'" FullSelectorArgument="&lt;webctrl tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' class='form-control ' aaname='' /&gt;" Guid="6a01bf59-9ff4-431d-beae-2585f0b7b664" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAkkAAAAiCAYAAABLLE2EAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAANCSURBVHhe7d1fS9tQGMfxvbBd7x34lnbn1a7EYJCMjKIZhTD8MwMWOpQKjm3OCmVCB8JcGWVhuWix/HaeJunqzLaLRUH7/cADzTmh119OY3wkAAAA3EAkAQAAVLgWSct7Z3rybF+Pl/cYhmEYhmEWZqx/rIPmzSLJNp7unGqYjYoVAACAxWD9Yx00H0qzSLKCIpAAAMCisg6yHirNIsmOmgAAABbZfA8RSQAAAAUiCQAAoAKRBAAAUIFIAgAAqPDfkbS0tFR8AgAAeDiIJAAAgApEEgAAQAUiCQAAoEItkZSs+/LLeR6p1cuKXQAAgPuplkiKV2J1i2ulx2quNvWO/2oCAADusfojSRdqrReR9K2j6GVHw3xDw6NI0VF+lfUShX5++tR43VM6XXX3fNxSuObJd3vhfl9Xk6FOkkiBnVK59cbhl+LOnhL33d3DhrzVhjrlFwAAANSgpkgKFG1vactNM3TRU4bM17bCsK1BfqXBm1DhG7sa6uBFoPZlvp6mxc9zn3blB4n6Y7u4Uvrd1jMNLosCmvS0u1YGUVfxqq/4A3UEAADqV1MkNXWcpi52Bup/aCkKGjqwAPpjJEn9ViAv3NLx59TlUO5i31d4WJ47zRmn6p911NqOFa6Fan+1RRdJ106wAAAA6lNTJF2PlextlMfQXyLJjC67ar8K5TU603vOX3s3IylzMRRGan8aKBsP1A6JJAAAcPvqj6RJqpPYU+ModZ9PFK+6vYltZNP1PJJGStPy/CgPn4NvbvV9Uysbv55huhq7e7qxvJ3zfGHSV7JOJAEAgNtXUyStyCteAeDZw9VJT+k0jEbqbftaWbO9SK2kOGEa99V64SvYjBVvBgq2uy6hTKZeEsoLIjXdur/pgslOkuzh7ldNNTZ2FW8QSQAA4PbVEkn/MvqRaTSNpt+MMmVVrwoYZ0qz8qTJmYyU/eCdAgAA4O7cSSQBAADcN0QSAABAhf+OJAAAgIeISAIAAKhAJAEAAFQgkgAAACpURtKTZ/saVv5tPgAAwMNnHWQ9VJpF0vLemZ7unBJKAABg4Vj/WAdZD5VmkWRswwrKjpoYhmEYhmEWZax/5gPJXIskAAAA5IgkAACAG6SfFlQpLjPoFJAAAAAASUVORK5CYII=" InformativeScreenshot="4bad44dc85a9be86b0a9cfaa7d08d203.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Newcon Software Workflow' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive" WaitForReadyArgument="Complete">
                     <uix:TargetAnchorable.Anchors>
@@ -205,7 +205,7 @@
                   </uix:TargetAnchorable>
                 </uix:NTypeInto.Target>
               </uix:NTypeInto>
-              <uix:NClick ActivateBefore="True" ClickType="Double" DisplayName="Click 'Data da Atividade'" sap:VirtualizedContainerService.HintSize="449.6,157.6" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="63f60bf5-483b-4ba7-b8d6-12ffd793db33" Version="V3">
+              <uix:NClick ActivateBefore="True" ClickType="Double" DisplayName="Click 'Data da Atividade'" sap:VirtualizedContainerService.HintSize="576.8,157.6" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="63f60bf5-483b-4ba7-b8d6-12ffd793db33" Version="V3">
                 <uix:NClick.Target>
                   <uix:TargetAnchorable BrowserURL="https://consorcio-newflow.sicredi.com.br/fila" CvTextArgument="Data da Atividade" CvType="Text" DesignTimeRectangle="34, 325, 135, 72" DesignTimeScaleFactor="1" FriendlyName="'Data da Atividade'" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tableRow='1' tag='TH' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='TH' class='sort-column' aaname='Data da Atividade' check:innerText='Data da Atividade' /&gt;" Guid="6a316947-1c41-4d63-975e-1680e1edb185" ImageBase64="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" InformativeScreenshot="1610ad5fefbf54f3cf29c4ee2618f05a.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Newcon Software Workflow' /&gt;" SearchSteps="FuzzySelector, Image, CV" Version="V2" Visibility="Interactive">
                     <uix:TargetAnchorable.Anchors>
@@ -216,8 +216,8 @@
                   </uix:TargetAnchorable>
                 </uix:NClick.Target>
               </uix:NClick>
-              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="449.6,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;Adquirindo processos&quot;]" />
-              <Sequence sap2010:Annotation.AnnotationText="Pegar processos" DisplayName="Recording Sequence" sap:VirtualizedContainerService.HintSize="449.6,114.4" sap2010:WorkflowViewState.IdRef="Sequence_6">
+              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="576.8,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;Adquirindo processos&quot;]" />
+              <Sequence sap2010:Annotation.AnnotationText="Pegar processos" DisplayName="Recording Sequence" sap:VirtualizedContainerService.HintSize="576.8,114.4" sap2010:WorkflowViewState.IdRef="Sequence_6">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -251,7 +251,7 @@
                   </ui:BrowserScope.Body>
                 </ui:BrowserScope>
               </Sequence>
-              <ui:FilterDataTable DataTable="[ExtractDataTable]" DisplayName="Filter Data Table" FilterRowsMode="Keep" sap:VirtualizedContainerService.HintSize="449.6,162.4" sap2010:WorkflowViewState.IdRef="FilterDataTable_1" OutputDataTable="[ExtractDataTable]" SelectColumnsMode="Remove">
+              <ui:FilterDataTable DataTable="[ExtractDataTable]" DisplayName="Filter Data Table" FilterRowsMode="Keep" sap:VirtualizedContainerService.HintSize="576.8,162.4" sap2010:WorkflowViewState.IdRef="FilterDataTable_1" OutputDataTable="[ExtractDataTable]" SelectColumnsMode="Remove">
                 <ui:FilterDataTable.Filters>
                   <scg:List x:TypeArguments="ui:FilterOperationArgument" Capacity="4">
                     <ui:FilterOperationArgument BooleanOperator="And" Operator="CONTAINS">
@@ -270,7 +270,7 @@
                   </scg:List>
                 </ui:FilterDataTable.SelectColumns>
               </ui:FilterDataTable>
-              <ui:WriteRange AddHeaders="False" DataTable="[ExtractDataTable]" DisplayName="Write Range Workbook" sap:VirtualizedContainerService.HintSize="449.6,116" sap2010:WorkflowViewState.IdRef="WriteRange_1" SheetName="Test" WorkbookPath="Test.xlsx">
+              <ui:WriteRange AddHeaders="False" DataTable="[ExtractDataTable]" DisplayName="Write Range Workbook" sap:VirtualizedContainerService.HintSize="576.8,116" sap2010:WorkflowViewState.IdRef="WriteRange_1" SheetName="Test" WorkbookPath="Test.xlsx">
                 <ui:WriteRange.StartingCell>
                   <InArgument x:TypeArguments="x:String">
                     <Literal x:TypeArguments="x:String" Value="" />
@@ -290,8 +290,8 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </uix:NApplicationCard>
-      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="675.2,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_6" Level="Info" Message="[&quot;Acessando Docket&quot;]" />
-      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Edge: Início | SaaS" sap:VirtualizedContainerService.HintSize="675.2,4068" sap2010:WorkflowViewState.IdRef="NApplicationCard_5" InteractionMode="DebuggerApi" ScopeGuid="fcf81ed9-a30c-40dc-9a20-16d9adc97c2f" Version="V2">
+      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="672.8,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_6" Level="Info" Message="[&quot;Acessando Docket&quot;]" />
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Edge: Início | SaaS" sap:VirtualizedContainerService.HintSize="672.8,52.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_5" InteractionMode="DebuggerApi" ScopeGuid="fcf81ed9-a30c-40dc-9a20-16d9adc97c2f" Version="V2">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
@@ -529,11 +529,12 @@
         </uix:NApplicationCard.TargetApp>
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
-            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
             <x:Boolean x:Key="IsPinned">False</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </uix:NApplicationCard>
+      <ui:DeleteFileX DisplayName="Delete File" sap:VirtualizedContainerService.HintSize="672.8,80.8" sap2010:WorkflowViewState.IdRef="DeleteFileX_1" Path="Test.xlsx" />
     </Sequence>
   </Sequence>
 </Activity>
